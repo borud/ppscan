@@ -124,7 +124,6 @@ IRAM_ATTR void gap_callback_handler(esp_gap_ble_cb_event_t event, esp_ble_gap_cb
 
         // Inquiry complete, scan is done
         if (p->scan_rst.search_evt == ESP_GAP_SEARCH_INQ_CMPL_EVT) {
-            ESP_LOGI(TAG, "==================== SCAN DONE ====================");
             ESP_ERROR_CHECK(esp_ble_gap_start_scanning(BLESCANTIME));
             return;
         }
