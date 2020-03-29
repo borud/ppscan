@@ -1,8 +1,8 @@
 #!/bin/sh
 #
 # When the firmware done shit itself, this comes in handy.  Paste in
-# the backtrace and it will tell you how many more month of this
-# coronavirus business.
+# the backtrace and it will tell you how many more months we have left
+# of this coronavirus business.
 #
 # Nah, I'm just kidding.  This tells you where you fucked up.
 #
